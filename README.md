@@ -42,7 +42,7 @@
   When `registered` and `casual` variables were included, the model achieved a perfect R² due to direct dependence with `cnt`. Excluding these variables produced a more realistic and interpretable model.
   
 - **Conclusion 4:**  
-  The final model (built using **RFE-based feature selection**) identified **temperature (`temp`)**, **year (`yr`)**, and **weather situation(`weather_sit_3(Light/Show/Rain`))** as the top three features explaining bike rental demand, with an R² ≈ 0.75 on test data — showing good generalization.
+  The final model (built using **RFE-based feature selection**) identified **temperature (`temp`)**, **year (`yr`)**, and **weather situation(`weather_sit_Light_Rain(Light/Show/Rain)`)** as the top three features explaining bike rental demand, with an R² ≈ 0.75 on test data — showing good generalization.
 
 ---
 
